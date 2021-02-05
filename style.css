@@ -1,6 +1,6 @@
 body
 {
-    background-color: #1A1A1D;
+    background-color: #1F2833;
     margin: 0px;
     padding: 0px;
 }
@@ -19,9 +19,6 @@ section
 {
     width: 100%;
     height: 95vh;
-    background-image: url("images.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 nav
@@ -42,7 +39,7 @@ nav ul
 
 nav ul li a
 {
-    margin: 30px;
+    margin: 20px;
     font-size: 20px;
     font-family: Tokyo;
     color: #66FCF1;
@@ -62,4 +59,56 @@ nav ul li a:hover
 .logo:hover
 {
     color: #66FCF1;
+}
+
+.banner-area
+{
+    background-image: url("assets/what.jpg");
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 500px;
+    top: 20%;
+    font-family: Raleway;
+}
+
+.banner-area h1
+{
+    padding-top: 5%;
+    font-size: 72px;
+    font-family: Tokyo;
+    color: #fff;
+}
+
+.banner-area h2
+{
+    
+}
+
+.banner-area button
+{
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+
+.resume-btn
+{
+    border: 2px solid #373636;
+    color: #373636;
+}
+
+.github-btn
+{
+    border: 2px solid #373636;
+    color: #373636;
+}
+
+button:active
+{
+    transform: scale(1.1);
 }
